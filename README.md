@@ -31,7 +31,7 @@ From a terminal window navigate to the project directory and run
 ### Output
 
 If not valid data provided for the constructor the output displays the following:
-> Please verify the data for matrix. It requires to be a two-dimentional array.
+> $ Please verify the data for matrix. It requires to be a two-dimentional array.
 
 If valid data provided for the constructor the output displays the following:
 ```
