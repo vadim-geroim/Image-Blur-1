@@ -4,7 +4,7 @@ TASK
 ____
 
 Build a class that allows us to build a new image with the data we specify. Make it possible for the class to output the image to the screen. 
-> [Output example](output-example):
+> Entry data:
 
 ```ruby
 image = Image.new([
@@ -28,7 +28,14 @@ From a terminal window navigate to the project directory and run
 > $ ruby ImageBlur.rb
 
 ### Output
-* If not valid data provided for the constructor the output displays the following:
-> Please verify the data for matrix. It requires to be a two-dimentional array.
-* If valid data provided for the constructor the output displays the [following](output-example)
 
+If not valid data provided for the constructor the output displays the following:
+> Please verify the data for matrix. It requires to be a two-dimentional array.
+
+If valid data provided for the constructor the output displays the following:
+```
+0000
+0100
+0001
+0000
+```
