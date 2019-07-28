@@ -16,6 +16,7 @@ image = Image.new([
 image.output_image
 ```
 
+
 EXECUTION
 _________
 
